@@ -1,0 +1,60 @@
+/*GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dac612ec;    
+}
+
+.containner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+/*MENU*/
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80vw;
+    height: 15vh;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #42424269;
+}
+
+.link-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 10%;
+    list-style: none;
+}
+
+.link-menu a{
+    text-decoration: none;
+}
+
+/*CONTEÚDO*/
+
+.container-conteudo{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+
+.conteudo{
+    border: solid;
+}
+
+.celular{
+    
+    border: solid;
+}
