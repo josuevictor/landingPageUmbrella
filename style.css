@@ -44,17 +44,31 @@ body{
 
 /*CONTEÚDO*/
 
-.container-conteudo{
+.containner-content{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
     flex-direction: row;
-    gap: 50%;
 }
 
-.conteudo{
+.content{
     border: solid;
+    width: 600px;
+    height: 400px;
+    background-color: cornsilk;
 }
 
-.celular{
-    
+.cellphone{
     border: solid;
+    width: 600px;
+    height: 400px;
+    background-color: cornsilk;
+}
+
+.dots{
+    border: solid;
+    width: 200px;
+    height: 70px;
+    background-color: cornsilk;
 }
